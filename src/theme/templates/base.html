@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+        <meta name="description" content="">
+        <meta name="author" content="{{ AUTHOR }}">
+        {% assets filters="less", output="css/bootstrap.min.css", "css/bootstrap.less" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+        {% endassets %}
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+        <link href="{{ SITEURL }}/theme/local.css" rel="stylesheet">
+        <link href="{{ SITEURL }}/theme/pygments.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        {% include "navbar.html"%}
+        <!-- content -->
+        <div class="container-fluid">
+            <div class="row">
+                <section class="menu">
+                    <div class="col-sm-3 col-md-2 sidebar">
+                        {% include "sidebar.html"%}
+                    </div>
+                </section>
+                <section class="main">
+                    <div class="col-sm-7 col-sm-offset-3 col-md-8 col-md-offset-2">
+                        {% block content %}{% endblock %}
+                    </div>
+                </section>
+                <section class="rightbar">
+                    <div class="col-sm-2 col-md-2 full-height">
+                        <dl>
+                            <dt><h4>Skill set</h4></dt>
+                            <dd>
+                                <dl>
+                                    <dt>Languages</dt>
+                                    <dd>Java, Javascript, Python, Go, bash</dd>
+                                    <dt>Platforms</dt>
+                                    <dd>Java J2EE, Spring 3.0+</dd>
+                                    <dt>Persistence</dt>
+                                    <dd>JPA, Hibernate, JDBC</dd>
+                                    <dt>Presentation</dt>
+                                    <dd>JSP, JSTL, GWT, Wicket</dd>
+                                    <dt>Mobile</dt>
+                                    <dd>Android, Robolectric</dd>
+                                    <dt>Client side</dt>
+                                    <dd>Google closure, Angular JS, JQuery</dd>
+                                    <dt>UI</dt>
+                                    <dd>HTML5, CSS3, LESS, Bootstrap, Zurb Foundation, 960 gs, Skeleton css</dd>
+                                    <dt>Testing</dt>
+                                    <dd>JUnit, Mockito, Spring test, Hamcrest</dd>
+                                    <dt>Server technologies</dt>
+                                    <dd>Tomcat, Websphere, Google App Engine, Apache, Varnish</dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="{{ SITEURL }}/theme/js/jquery-1.10.2.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+    </body>
+</html>
