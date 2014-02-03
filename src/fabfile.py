@@ -10,12 +10,6 @@ DEPLOY_PATH = env.deploy_path
 production = 'nikosk@dsigned.gr:22'
 dest_path = '/home/nikosk/dsigned.gr'
 
-# Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
-
-
 def clean():
     if os.path.isdir(DEPLOY_PATH):
         local('rm -rf {deploy_path}'.format(**env))
@@ -40,14 +34,6 @@ def reserve():
 
 def preview():
     local('pelican -s publishconf.py')
-
-def cf_upload():
-    rebuild()
-    local('cd {deploy_path} && '
-          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-          '-U {cloudfiles_username} '
-          '-K {cloudfiles_api_key} '
-          'upload -c {cloudfiles_container} .'.format(**env))
 
 @hosts(production)
 def publish():

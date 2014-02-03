@@ -2,3 +2,4 @@
 .idea/
 .webassets-cache/
 *.pyc
+output/
