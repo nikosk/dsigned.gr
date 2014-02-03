@@ -35,7 +35,7 @@ AUTHORS_SAVE_AS = ''
 
 # Blogroll
 LINKS =  (
-        ('Google+', 'http://github.com/nikosk'),
+        ('Google+', 'https://plus.google.com/u/0/109774891794899790955/about'),
 		('Github', 'http://github.com/nikosk'),
 	    ('StackOverflow', 'http://stackoverflow.com/users/56663/javito'),
 	    ('Twitter', 'http://twitter.com/nikos_k'),
