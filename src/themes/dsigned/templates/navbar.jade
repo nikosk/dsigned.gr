@@ -1,0 +1,27 @@
+// mobile navigation
+#mobile-nav.navbar.navbar-default.navbar-fixed-top.visible-xs(role='navigation')
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#') dsigned.gr
+    .navbar-collapse.collapse(style='height: auto;')
+      ul.nav.navbar-nav.navbar-right
+        each page in pages
+          li
+            a(href="/#{page.meta().save_as.get()}")#{page.meta().title.get()}
+          li
+            a(href='https://plus.google.com/u/0/109774891794899790955/about')
+              | Google+
+          li
+            a(href='http://github.com/nikosk')
+              | Github
+          li
+            a(href='http://stackoverflow.com/users/56663/javito')
+              | StackOverflow
+          li
+            a(href='http://twitter.com/nikos_k')
+              | Twitter

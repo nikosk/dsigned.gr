@@ -1,0 +1,56 @@
+doctype html
+html(lang='#{LANG}')
+  head
+    meta(charset='utf-8')
+    title= 
+        block title {
+          #{ BASE_URL }
+    meta(name='description', content='#{description}')
+    meta(name='author', content='{{ AUTHOR }}')
+    link(rel='stylesheet', href='#{BASE_URL}/static/css/bootstrap.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata', rel='stylesheet', type='text/css')
+    link(href='#{ BASE_URL }/static/local.css', rel='stylesheet')
+    link(href='#{ BASE_URL }/static/pygments.css', rel='stylesheet')
+    link(href='#{ BASE_URL }/static/favicon.ico', rel='shortcut icon')
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+    include analytics 
+  body
+    include navbar
+    // content
+    .container-fluid 
+      .row
+        section.menu
+          .col-sm-3.col-md-2.sidebar
+            include sidebar
+        section.main
+          .col-sm-7.col-sm-offset-3.col-md-8.col-md-offset-2
+            block content 
+        section.rightbar
+          .col-sm-2.col-md-2.full-height
+            dl
+              dt
+                h4 Skill set
+              dd
+                dl
+                  dt Languages
+                  dd Java, Scala, Javascript, Python, Go, bash
+                  dt Platforms
+                  dd Java J2EE, Spring, Play, Liferay
+                  dt Persistence
+                  dd JPA, Hibernate, JDBC
+                  dt Presentation
+                  dd JSP/JSTL, Wicket, Jade, GWT
+                  dt Mobile
+                  dd Android, Robolectric
+                  dt Client side
+                  dd Google closure, AngularJS, JQuery
+                  dt UI
+                  dd HTML5, CSS3, LESS, Bootstrap, 960 gs, Skeleton css
+                  dt Testing
+                  dd JUnit, Mockito, Spring test, Hamcrest, ScalaTest
+                  dt Server technologies
+                  dd Tomcat, Websphere, Google AppEngine, Apache, Varnish
+    script(src='#{BASE_URL}/static/js/jquery-1.10.2.min.js')
+    script(src='#{BASE_URL}/static/js/bootstrap.min.js')

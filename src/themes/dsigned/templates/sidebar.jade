@@ -1,0 +1,21 @@
+.user_meta
+  h2#author
+    a(href='#{BASE_URL}') #{AUTHOR}
+  p.bio #{ config.getString('sssg.AUTHOR_BIO') }
+  ul.nav.nav-sidebar
+    each page in pages
+      li
+        a(href="/#{page.meta().save_as.get()}")#{page.meta().title.get()}
+  ul.nav.nav-sidebar
+      li
+        a(href='https://plus.google.com/u/0/109774891794899790955/about')
+          | Google+
+      li
+        a(href='http://github.com/nikosk')
+          | Github
+      li
+        a(href='http://stackoverflow.com/users/56663/javito')
+          | StackOverflow
+      li
+        a(href='http://twitter.com/nikos_k')
+          | Twitter
