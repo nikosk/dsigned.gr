@@ -16,28 +16,18 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 def build():
-    local('pelican -s pelicanconf.py')
+    local('sssg')
 
 def rebuild():
     clean()
     build()
 
-def regenerate():
-    local('pelican -r -s pelicanconf.py')
-
 def serve():
-    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
-
-def reserve():
-    build()
-    serve()
-
-def preview():
-    local('pelican -s publishconf.py')
+    local('sssg server')
 
 @hosts(production)
 def publish():
-    local('pelican -s publishconf.py')
+    local('sssg')
     project.rsync_project(
         remote_dir=dest_path,
         exclude=".DS_Store",

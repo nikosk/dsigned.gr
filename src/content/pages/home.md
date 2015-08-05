@@ -13,7 +13,7 @@ I am interested in software quality, design patterns, large scale systems and I 
 
 ###Work experience
 
-####[Vound.co](https://vound.co/)####
+**[Vound.co](https://vound.co/)**
 
 **2014 - 2015** - Android developer, backend architect, AWS/System administrator and front-end engineer. 
 
@@ -21,7 +21,7 @@ Worked as a full stack engineer in a highly demanding social network project. Wa
 
 **notable acheivements:** the design of a complex social network application, the design of a budget-friendly fault tolerant architecture on AWS, implementation of a technically demanding android application.
 
-####[ncoded+](http://ncoded.gr)####
+**[ncoded+](http://ncoded.gr)**
 
 **2012 - 2014** - CTO - Cofounder
 
@@ -31,7 +31,7 @@ Responsible for the design and development of the server-side software stack and
 **notable acheivements:** designed and developed SlotPilot, a slot machine management system with live monitoring of cashier and attendant transactions and reporting tools for managerial staff.
 
 
-####[Interamerican](http://www.interamerican.gr/)####
+**[Interamerican](http://www.interamerican.gr/)**
 
 **2013 - 2014** - Senior Software engineer - Team Leader
 
@@ -40,7 +40,7 @@ Lead a team of 3-5 engineers responsible for the implementation of the company's
 
 **notable acheivements:** worked for a company that strives for technical excellence, lead a team that delivered modern mobile friendly tools that made agents more productive
 
-####[24 Media](http://24media.gr)####
+**[24 Media](http://24media.gr)**
 
 **2007 - 2013** - Tech Lead
 
@@ -53,25 +53,27 @@ finally coaching non-technical staff on SEO, project management and other topics
 
 ###Open Source Contributions
 
-Scala naive bayes classifier: A multinomial naive bayes text classifier
+**[SSSG](https://github.com/nikosk/sssg)** Scala static site generator
+
+* Local server and watch/build capabilities
+* Jade templates
+
+**[Scala naive bayes classifier](https://github.com/nikosk/scala-naive-bayes-classifier)** A multinomial naive bayes text classifier
 
 * A scala implementation of the naive bayes algorithm
-* [https://github.com/nikosk/scala-naive-bayes-classifier](https://github.com/nikosk/scala-naive-bayes-classifier)
 
-ALAPL: A Lightweight Atom Parser Library.
+**[ALAPL](http://github.com/nikosk/ALAPL)** A Lightweight Atom Parser Library.
 
 * Fast parsing
 * Based on Pull XML
 * Suited for mobile applications, especially Android Applications.
 * Standards compliant
-* [http://github.com/nikosk/ALAPL](http://github.com/nikosk/ALAPL)
 
-JMVC Framework. Designed & developed a Java web framework.
+**[JMVC Framework](http://code.google.com/p/j2mvc/)** A Java web framework.
 
 * Model - View - Controller architecture.
 * Built-in Dependency injection framework based on Google Guice.
 * High performance database abstraction layer with database caching.
 * Used internally in 24 Media as a lightweight framework for faster development times.
-* [http://code.google.com/p/j2mvc/](http://code.google.com/p/j2mvc/)
 
 
