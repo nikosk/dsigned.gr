@@ -19,7 +19,7 @@ I am interested in software quality, design patterns, large scale systems and I 
 
 Worked as a full stack engineer in a highly demanding social network project. Was responsible for modeling, architecture and implementation of the components powering the backend. Also responsible for the UI design and development of the Android version (not released yet). 
 
-**notable acheivements:** the design of a complex social network application, the design of a budget-friendly fault tolerant architecture on AWS, implementation of a technically demanding android application.
+**notable achievements:** the design of a complex social network application, the design of a budget-friendly fault tolerant architecture on AWS, implementation of a technically demanding android application.
 
 **[ncoded+](http://ncoded.gr)**
 
@@ -28,7 +28,7 @@ Worked as a full stack engineer in a highly demanding social network project. Wa
 Co-founder of ncoded+, a company that developed mobile and web applications for the Hospitality and Casino markets.
 Responsible for the design and development of the server-side software stack and Android applications.
 
-**notable acheivements:** designed and developed SlotPilot, a slot machine management system with live monitoring of cashier and attendant transactions and reporting tools for managerial staff.
+**notable achievements:** designed and developed SlotPilot, a slot machine management system with live monitoring of cashier and attendant transactions and reporting tools for managerial staff.
 
 
 **[Interamerican](http://www.interamerican.gr/)**
@@ -38,7 +38,7 @@ Responsible for the design and development of the server-side software stack and
 Employed as a Senior Software engineer by one of the largest insurance companies in Greece.
 Lead a team of 3-5 engineers responsible for the implementation of the company's agents network support portal and tools.
 
-**notable acheivements:** worked for a company that strives for technical excellence, lead a team that delivered modern mobile friendly tools that made agents more productive
+**notable achievements:** worked for a company that strives for technical excellence, lead a team that delivered modern mobile friendly tools that made a difference in productivity.
 
 **[24 Media](http://24media.gr)**
 
@@ -49,7 +49,7 @@ My responsibilities included leading a team of 4 developers and 1 systems admini
 supervision and coaching of a team of developers, project management, design and monitoring of hardware infrastructure and
 finally coaching non-technical staff on SEO, project management and other topics.
 
-**notable acheivements:** managed to deliver solutions in an extremely high paced environment while maintaining technical standards (testing, QA, code re-use etc)
+**notable achievements:** managed to deliver solutions in an extremely high paced environment while maintaining technical standards (testing, QA, code re-use etc).
 
 ###Open Source Contributions
 

@@ -22,13 +22,13 @@ html(lang='#{LANG}')
     .container-fluid 
       .row
         section.menu
-          .col-sm-3.col-md-2.sidebar
+          .col-md-2.sidebar
             include sidebar
         section.main
-          .col-sm-7.col-sm-offset-3.col-md-8.col-md-offset-2
+          .col-md-8.col-md-offset-2
             block content 
         section.rightbar
-          .col-sm-2.col-md-2.full-height
+          .col-md-2.full-height
             dl
               dt
                 h4 Skill set
@@ -37,9 +37,11 @@ html(lang='#{LANG}')
                   dt Languages
                   dd Java, Scala, Javascript, Python, Go, bash
                   dt Platforms
-                  dd Java J2EE, Spring, Play, Liferay
+                  dd Java EE, Spring, Play, Liferay
                   dt Persistence
                   dd JPA, Hibernate, JDBC
+                  dt DBMS
+                  dd MySQL, PostgreSQL, DB2
                   dt Presentation
                   dd JSP/JSTL, Wicket, Jade, GWT
                   dt Mobile
@@ -49,8 +51,8 @@ html(lang='#{LANG}')
                   dt UI
                   dd HTML5, CSS3, LESS, Bootstrap, 960 gs, Skeleton css
                   dt Testing
-                  dd JUnit, Mockito, Spring test, Hamcrest, ScalaTest
+                  dd Jenkins/Hudson, JUnit, Mockito, Spring test, Hamcrest, ScalaTest
                   dt Server technologies
-                  dd Tomcat, Websphere, Google AppEngine, Apache, Varnish
+                  dd Tomcat, Websphere, Google AppEngine, Apache, Varnish, nginx
     script(src='#{BASE_URL}/static/js/jquery-1.10.2.min.js')
     script(src='#{BASE_URL}/static/js/bootstrap.min.js')

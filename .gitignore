@@ -3,3 +3,5 @@
 .webassets-cache/
 *.pyc
 output/
+.DS_Store
+output

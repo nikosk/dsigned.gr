@@ -4,6 +4,9 @@
 h4{
   font-weight: bold;
 }
+.rightbar{
+  font-size: 0.8em;
+}
 .main a{
     color: #0069d6;
 }
@@ -35,6 +38,10 @@ body {
     padding: 71px 20px 20px;
 }
 
+.rightbar dt {
+  margin-top: 10px;
+}
+
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
@@ -48,9 +55,9 @@ body {
     border-right: 1px solid #eee;
   }
 
-  .rightbar > div{
-	border-left: 1px solid #eee;
-	position: fixed;
+  .rightbar > div {
+    border-left: 1px solid #eee;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
