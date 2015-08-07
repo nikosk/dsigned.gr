@@ -5,6 +5,9 @@ html(lang='#{LANG}')
     title= 
         block title {
           #{ BASE_URL }
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")      
     meta(name='description', content='#{description}')
     meta(name='author', content='{{ AUTHOR }}')
     link(rel='stylesheet', href='#{BASE_URL}/static/css/bootstrap.css')
@@ -22,13 +25,13 @@ html(lang='#{LANG}')
     .container-fluid 
       .row
         section.menu
-          .col-md-2.sidebar
+          .col-sm-2.sidebar
             include sidebar
         section.main
-          .col-md-8.col-md-offset-2
+          .col-sm-8.col-sm-offset-2
             block content 
         section.rightbar
-          .col-md-2.full-height
+          .col-sm-2.full-height  
             dl
               dt
                 h4 Skill set
